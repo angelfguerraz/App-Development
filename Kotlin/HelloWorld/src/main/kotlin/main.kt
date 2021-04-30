@@ -11,10 +11,11 @@ fun main(args: Array<String>) {
 
     // val: just read variable
     val name = "Maria"
-    println(name)
+    val surname = "Gonzales"
+    println("My name is: $name $surname")
 
     val boo = true
-    val large_n : Long = 3L
+    val largeN : Long = 3L
     val double : Double = 2.71
     val float : Float = 1.1f
     val n1 = 29
