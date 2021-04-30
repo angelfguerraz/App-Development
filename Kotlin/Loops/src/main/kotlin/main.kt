@@ -10,7 +10,17 @@ fun main(args: Array<String>) {
 
     //For
     val fruits = listOf("Apple", "Pear", "Cherry", "Pineapple")
+    val nums = listOf(1,2,3,4,5)
     for (f in fruits) {
-        println("List: $f")
+        println(" ${fruits.indexOf(f)} Fruit: $f")
     }
+
+    nums.forEach { n -> println("Number: $n") }
+
+    val mapN = nums.map { n -> n*5 }
+    println("$mapN")
+
+    val filterN = nums.filter { n -> n%2 != 0 }
+    print("$filterN")
+
 }
