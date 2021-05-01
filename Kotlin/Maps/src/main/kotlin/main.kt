@@ -19,4 +19,6 @@ fun main(args: Array<String>) {
     values1.put(4, "d")
     println(values1[1])
     println(values1)
+
+    println("Keys: ${values1.keys} Values: ${values1.values}")
 }
